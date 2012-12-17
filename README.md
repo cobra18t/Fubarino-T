@@ -4,6 +4,18 @@ Main Project Pages are:
 http://fubarino.org
 
 The Fubarino SD board brings affordable, breadboard compatible high speed computing power to the Arduino-compatible chipKIT/MPIDE platform. It is able to run almost all Arduino sketches right out of the box at a great price, and includes more memory, speed, and I/O pins than a typical Arduino or clone. And it includes a microSD card slot for easy sketch access to huge file storage.
+
+cobra18t's FubarinoSDt
+======
+This is an edited version of Brian Schmalz's original FubarinoSD. The main changes are as follows:
+* Used the PIC32MX440F512, which has 512k flash memory, versus the normal 256k.
+* Used a different SD socket and brought the Card Detect out to a change notification pin (A14)
+* Used a 800mA regulator for just a little more *umph*
+* Used Sparkfun's locking headers so breadboarding does not necessarily require soldering
+* Minor layout changes to adhere to my board fabricators design rules
+* Changed packages for crystal and diodes for cost reasons
+* Blue LED on pin 21...you gotta love the blue!
+
 FubarinoSD
 ======
 Class on a stick. Course materials can fit on the SD card. The device mounts as a USB device. Unfortunatley, at 1.0 speeds. But 
