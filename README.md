@@ -19,7 +19,7 @@ This is an edited version of Brian Schmalz's original FubarinoSD. The main chang
 FubarinoSD
 ======
 Class on a stick. Course materials can fit on the SD card. The device mounts as a USB device. Unfortunatley, at 1.0 speeds. But 
-it wll cut 45 minutes of getting started to 15 minutes. When offering online course using electronics all the coruse materials can be placed on the board.
+it wll cut 45 minutes of getting started to 15 minutes. When offering online course using electronics, all the course materials can be placed on the board.
 
 
 
